@@ -8,15 +8,12 @@ import BugIcon from '../svg/bug-logo.svg';
 import {
   AppBar,
   Toolbar,
-  Typography,
-  Link,
   Button,
   useMediaQuery,
   Container,
 } from '@material-ui/core';
 import { useNavStyles } from '../styles/muiStyles';
 import { useTheme } from '@material-ui/core/styles';
-import FavoriteIcon from '@material-ui/icons/Favorite';
 import ArrowBackIcon from '@material-ui/icons/ArrowBack';
 
 const NavBar = () => {
@@ -54,20 +51,6 @@ const NavBar = () => {
             <img src={BugIcon} alt="logo" className={classes.svgImage} />
             BugTracker
           </Button>
-          {!isMobile && (
-            <Typography variant="caption" color="secondary">
-              Made with{' '}
-              <FavoriteIcon style={{ fontSize: 10 }} color="primary" /> by{' '}
-              <Link
-                href={'https://github.com/amand33p'}
-                color="inherit"
-                target="_blank"
-                rel="noopener"
-              >
-                <strong>amand33p</strong>
-              </Link>
-            </Typography>
-          )}
         </div>
       );
     } else {

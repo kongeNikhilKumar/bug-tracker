@@ -1,7 +1,7 @@
 {
   "name": "bug-tracker-pern-ts",
   "version": "1.0.0",
-  "description": "Made by amand33p",
+  "description": "Made by Nikhil",
   "scripts": {
     "start": "node ./build/server.js",
     "build": "rm -rf ./build && tsc -p ./",
@@ -9,7 +9,7 @@
     "typeorm": "ts-node ./node_modules/typeorm/cli.js",
     "lint": "eslint --ext .ts ."
   },
-  "author": "Amandeep S",
+  "author": "Nikhil Kumar",
   "license": "ISC",
   "devDependencies": {
     "@types/bcrypt": "^3.0.0",
